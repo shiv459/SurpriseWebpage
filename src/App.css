@@ -240,7 +240,10 @@ p {
 .container {
   width: 90%;
   margin: auto;
+  display: flex;
   max-width: 1200px;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 768px) {
